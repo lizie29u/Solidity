@@ -21,7 +21,7 @@ The contract will not accept deposits except through calling the deposit functio
 
 The balance function will serve as a sort of test function to ensure that the deposit function is returning the remainders to HR.  Therefore, the balance function, should always return 0.
 
-See copy of codes here
+See copy of codes here -  [`AssociateProfitSplitter.sol`](AssociateProfitSplitter.sol)
 
 
 ### Contract #2 -Tiered Profit Splitter
@@ -45,7 +45,8 @@ The contract will not accept deposits except through calling the deposit functio
 The balance function will serve as a sort of test function to ensure that the deposit function is executing properly. Since all of the ether should be transferred to employees, the balance function should always return 0.
 
 
-See copy of codes here
+See copy of codes here: [`TieredProfitSplitter.sol`](TieredProfitSplitter.sol)
+
 
 ### Contract #3 -Deferred Equity Plan
 Deployed on the Kovan network
@@ -65,5 +66,4 @@ The distribution function will do the following
 The contract will not accept deposits of ether.
 
 The contract can be deactivated by either HR or the employee
-
-See copy of codes here
+See copy of codes here: [`DeferreEquityPlan.sol`](DeferredEquityPlan.sol)
