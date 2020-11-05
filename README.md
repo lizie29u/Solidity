@@ -4,7 +4,7 @@ In this assignment, we have created three (3) smart contracts to automate some c
 
 ### Contract #1 - Associate Profit Splitter
 Deployed on the Kovan network
-contract addres: 0xF7993D6746De8400926f5D02C4Da9e7fB7781397
+contract addres: 0xb137900410Df13892Ebf31EDA7086f846FFB6cB6
 
 This contract will be used by human resources to pay employees quickly and efficiently. The contract  will accept ether, and divide it evenly among associate-level employees.
 
@@ -26,7 +26,7 @@ See copy of codes here -  [`AssociateProfitSplitter.sol`](AssociateProfitSplitte
 
 ### Contract #2 -Tiered Profit Splitter
 Deployed on the Kovan network
-contract addres: 0x6eaC22D813Fd62A78f0771a295460F7b68e670a3
+contract addres: 0x7bdbc966dDE467ca4182CD3D69c6399B09852dC8
 
 This contract will be used to split profits between three (3) employees based on predetermined percentages (60%, 25% and 15%), after the amounts have been converted to points.
 
@@ -50,7 +50,7 @@ See copy of codes here: [`TieredProfitSplitter.sol`](TieredProfitSplitter.sol)
 
 ### Contract #3 -Deferred Equity Plan
 Deployed on the Kovan network
-contract addres: 0x393bc81Ed5AE18fF38eF62c325B1B1f45E56B0f1
+contract addres: 0x8B41C4145643270db98A8A4dBfe1646AF019650c
 
 This contract will be used to manage an employee's "deferred equity incentive plan," which distributes 1000 shares over four years to the employee, assuming the employee is still active at the end of each vesting period. 250 shares will be distributed at the end of each vesting period which is one year (365 days).
 
