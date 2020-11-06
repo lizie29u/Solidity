@@ -21,8 +21,18 @@ The contract will not accept deposits except through calling the deposit functio
 
 The balance function will serve as a sort of test function to ensure that the deposit function is returning the remainders to HR.  Therefore, the balance function, should always return 0.
 
-See copy of codes here -  [`AssociateProfitSplitter.sol`](AssociateProfitSplitter.sol)
+You can view codes here :  [`AssociateProfitSplitter.sol`](AssociateProfitSplitter.sol)
 
+`Kovan Deployment image 1`
+
+![`Kovan Deployment`](Images/APS_deployment_kovan.PNG)
+
+`Kovan Deployment showing functions`
+
+![`Kovan Deployment`](Images/APS_deployment_kovan2.PNG)
+
+`Testnet Deposit `
+![`Testnet deposit`](Images/Testnet_deposit_APS.PNG)
 
 ### Contract #2 -Tiered Profit Splitter
 Deployed on the Kovan network
@@ -45,11 +55,15 @@ The contract will not accept deposits except through calling the deposit functio
 The balance function will serve as a sort of test function to ensure that the deposit function is executing properly. Since all of the ether should be transferred to employees, the balance function should always return 0.
 
 
-See copy of codes here: [`TieredProfitSplitter.sol`](TieredProfitSplitter.sol)
+You can view codes here: [`TieredProfitSplitter.sol`](TieredProfitSplitter.sol)
+
+`Kovan Deployment `
+
+![`Kovan Deployment`](Images/TPS_Kovan_Deploy.PNG)
 
 
 ### Contract #3 -Deferred Equity Plan
-Deployed on the Kovan network
+Deployed on the Kovan network    
 contract addres: 0x8B41C4145643270db98A8A4dBfe1646AF019650c
 
 This contract will be used to manage an employee's "deferred equity incentive plan," which distributes 1000 shares over four years to the employee, assuming the employee is still active at the end of each vesting period. 250 shares will be distributed at the end of each vesting period which is one year (365 days).
@@ -63,7 +77,9 @@ The distribution function will do the following
 2 - Set the next unlock time
 3 - Distribute shares 
 
-The contract will not accept deposits of ether.
+The contract will not accept deposits of ether. The contract can be deactivated by either HR or the employee
 
-The contract can be deactivated by either HR or the employee
-See copy of codes here: [`DeferreEquityPlan.sol`](DeferredEquityPlan.sol)
+View codes here: [`DeferreEquityPlan.sol`](DeferredEquityPlan.sol)
+
+`Kovan depolyment `
+![`Testnet deposit`](Images/DEP_distributed_shares_kovan.PNG)
