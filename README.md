@@ -12,10 +12,10 @@ The three (3) associate level employees have been defined as
 employee _one, employee _two and employee _three. The constructor function has been used to program their payable addresses into the contract.
 
 The deposit function will do the following
-1 - Accept the deposit amount from HR
-2 - Split the amount evenly among the 3 employees
-3 - Transfer the respective portions to each employee
-4 - Send back any potential remainder to HR
+* 1 - Accept the deposit amount from HR
+* 2 - Split the amount evenly among the 3 employees
+* 3 - Transfer the respective portions to each employee
+* 4 - Send back any potential remainder to HR
 
 The contract will not accept deposits except through calling the deposit function.
 
@@ -32,6 +32,7 @@ You can view codes here :  [`AssociateProfitSplitter.sol`](AssociateProfitSplitt
 ![`Kovan Deployment`](Images/APS_deployment_kovan2.PNG)
 
 `Testnet Deposit `
+
 ![`Testnet deposit`](Images/Testnet_deposit_APS.PNG)
 
 ### Contract #2 -Tiered Profit Splitter
@@ -44,18 +45,18 @@ The employees have been defined as
 employee _one, employee _two and employee _three. The constructor function has been used to program their payable addresses into the contract.
 
 The deposit function will do the following
-1 - convert the deposit amount to points
-2 - Apply percentage to calculate the amount for the employee
-3 - Keep a running balance of the total allocated 
-4 - transfer the respective amounts to each employee
-5 - Calculate the difference between the original deposit and the total allocated, then  send this difference to employee _one.  
+* 1 - convert the deposit amount to points
+* 2 - Apply percentage to calculate the amount for the employee
+* 3 - Keep a running balance of the total allocated 
+* 4 - transfer the respective amounts to each employee
+* 5 - Calculate the difference between the original deposit and the total allocated, then  send this difference to employee _one.  
 
 The contract will not accept deposits except through calling the deposit function.
 
 The balance function will serve as a sort of test function to ensure that the deposit function is executing properly. Since all of the ether should be transferred to employees, the balance function should always return 0.
 
 
-You can view codes here: [`TieredProfitSplitter.sol`](TieredProfitSplitter.sol)
+View codes here: [`TieredProfitSplitter.sol`](TieredProfitSplitter.sol)
 
 `Kovan Deployment `
 
@@ -73,13 +74,14 @@ The start time will be set as "now" and 365 days added to calculate the unlock t
 The constructor function has been used to program the employee's payable addresses and also to set human resources as the message sender.
 
 The distribution function will do the following
-1 - Verify that the vesting period is met for unlocking
-2 - Set the next unlock time
-3 - Distribute shares 
+* 1 - Verify that the vesting period is met for unlocking
+* 2 - Set the next unlock time
+* 3 - Distribute shares 
 
 The contract will not accept deposits of ether. The contract can be deactivated by either HR or the employee
 
 View codes here: [`DeferreEquityPlan.sol`](DeferredEquityPlan.sol)
 
 `Kovan depolyment `
+
 ![`Testnet deposit`](Images/DEP_distributed_shares_kovan.PNG)
